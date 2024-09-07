@@ -12,9 +12,9 @@ def main():
     n=4
 
     if is_prime(n):
-        print(f"{n} is a prime number")
+        print(f"{n}은 소수입니다.")
     else:
-        print(f"{n} is not a prime number")
+        print(f"{n}은 소수가 아닙니다.")
 
 if __name__ == "__main__":
     main()
