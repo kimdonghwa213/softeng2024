@@ -5,8 +5,8 @@ def factorial(n):
         return n * factorial(n-1)
 
 def main():
-    n =5
-    print(factorial(n))
+    n =12
+    print(f"{n}! = {factorial(n)} 입니다.")
 
 if __name__ == '__main__':
     main()
