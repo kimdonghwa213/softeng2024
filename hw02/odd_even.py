@@ -3,7 +3,7 @@ def is_even(n):
         return n
 
 def main():
-    n = 4
+    n = 10
     if n % 2 == 0:
         print(f"{n}은 짝수입니다.")
     else:
