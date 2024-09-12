@@ -43,7 +43,7 @@ def gugudan_arg_html():
     dan = request.args.get("dan")
     html_str = ""
     for i in range(1,10):
-        html_str += f"{dan} X {i} = <strong>{int(dan)*i}<br>"
+        html_str += f"{dan} X {i} = <strong>{int(dan)*i}</strong><br>"
     return html_str
 
 app.run(debug=True)
