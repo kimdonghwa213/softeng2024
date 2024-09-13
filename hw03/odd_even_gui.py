@@ -6,7 +6,7 @@ ROOT = tk.Tk()
 
 ROOT.withdraw()
 
-USER_INP = int(simpledialog.askstring("홀짝테스트", "숫자를 입력하시오"))
+USER_INP = int(simpledialog.askstring(title="홀짝테스트", prompt="숫자를 입력하시오"))
 
 if is_even(USER_INP):
     print(f"{USER_INP} 은(는) 짝수입니다.")
