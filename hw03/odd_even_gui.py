@@ -10,11 +10,11 @@ ROOT = tk.Tk()
 
 ROOT.withdraw()
 
-USER_INP = int(simpledialog.askstring("Odd Even Test", "Enter number of odd even test"))
+USER_INP = int(simpledialog.askstring("홀짝테스트", "숫자를 입력하시오"))
 
 if is_even(USER_INP):
-    print(f"{USER_INP} is an even number")
+    print(f"{USER_INP} 은(는) 짝수입니다.")
 elif is_odd(USER_INP):
-    print(f"{USER_INP} is an odd number")
+    print(f"{USER_INP} 은(는) 홀수입니다.")
 else:
     print(f"{USER_INP} is 0")
