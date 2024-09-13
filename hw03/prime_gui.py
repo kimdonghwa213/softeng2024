@@ -6,7 +6,7 @@ ROOT = tk.Tk()
 
 ROOT.withdraw()
 
-USER_INT =int(simpledialog.askinteger("User","Enter a number:"))
+USER_INT =int(simpledialog.askinteger(title="범위의 소수 구하기",prompt="숫자를 입력하시오."))
 
 primes = []
 for i in range(2,USER_INT):
