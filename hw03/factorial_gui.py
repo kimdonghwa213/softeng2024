@@ -6,6 +6,6 @@ ROOT = tk.Tk()
 
 ROOT.withdraw()
 
-USER_INT =int(simpledialog.askinteger("User","Enter a number:"))
+USER_INT =int(simpledialog.askinteger("팩토리얼 구하기","숫자를 입력하시오."))
 
 print(f"{USER_INT}! = {factorial(USER_INT)} 입니다.")
