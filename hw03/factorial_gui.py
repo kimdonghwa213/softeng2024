@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import simpledialog
-from lec01.factorial import factorial
+from hw02.factorial import factorial
 
 ROOT = tk.Tk()
 
