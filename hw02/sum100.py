@@ -1,4 +1,4 @@
-from lec01.odd_even import is_even
+from hw02.odd_even import is_even
 
 
 def main():
