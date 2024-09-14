@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import simpledialog
-from lec01.temp_copy import f2c
+from hw02.temp_copy import f2c
 
 ROOT = tk.Tk()
 
