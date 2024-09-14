@@ -10,5 +10,5 @@ hw 02\
 -temp_copy.py : 화씨온도를 섭씨온도로 변환하는 함수를 만들고, 정해놓은 수의 화씨온도를 섭씨온도로 변환해주는 프로그램\
 \
 hw 03\
-hw 03 의 프로그램은 모두 gui를 통해 결과값을 출력하기 때문에, 공통적으로 'tkinter'와 'simpledialog'
+hw 03 의 프로그램은 모두 gui를 통해 결과값을 출력하기 때문에, 공통적으로 'tkinter'와 'simpledialog'를 사용하여 텍스트 박스를 만들었고, 'simpledialog.askinteger' 로 숫자를 입력받는 텍스트 박스를 만들었다.
 -factorial_gui.py : 
