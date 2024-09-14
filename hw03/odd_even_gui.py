@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import simpledialog
-from lec01.odd_even import is_even
+from hw02.odd_even import is_even
 
 ROOT = tk.Tk()
 
