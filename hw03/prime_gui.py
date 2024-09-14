@@ -13,4 +13,4 @@ for i in range(2,USER_INT):
     if is_prime(i):
         primes.append(i)
 
-print(f"{USER_INT}까지의 수 중 소수는 {primes}입니다.")
+print(f"1부터 {USER_INT}까지의 수 중 소수는 {primes}입니다.")
