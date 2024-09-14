@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import simpledialog
-from lec01.prime_number import is_prime
+from hw02.prime_number import is_prime
 
 ROOT = tk.Tk()
 
