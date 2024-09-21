@@ -16,11 +16,11 @@ def bmi():
  <form method="GET" action="/bmi">
  <h2> BMI 계산기</h2>
  <label>키(cm) :
- <input type="text" name="height"> 
+ <input type="text" name="height">
  몸무게(kg) :
  <input type="text" name="weight">
  </label>
- <button type="submit">출력</button>
+ <button type="submit">계산</button>
  </form>
  </body>
  </html>
@@ -32,7 +32,7 @@ def bmi_html():
     height = float(request.args.get("height"))
     weight = float(request.args.get("weight"))
     bmi = weight / ((height / 100) ** 2)
-    html_str = f"당신의 BMI는 {bmi:.2f}입니다.</strong><br>"
+    html_str = f"당신의 BMI는 <strong>{bmi:.2f}</strong>입니다."
     return html_str
 
 app.run(debug=True)
