@@ -1,0 +1,43 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>{% block head_title %}Blog{% endblock %}</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="{% static 'blog/assets/favicon.ico' %}" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'blog/css/styles.css' %}" rel="stylesheet" />
+        <link rel="stylesheet" href="{% static 'blog/bootstrap/bootstrap.min.css' %}" media="screen">
+
+        <script src="https://kit.fontawesome.com/172221c77b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+       {% include 'blog/navbar.html' %}
+
+        <!-- Page header with logo and tagline-->
+        {% block header %}
+        {% endblock %}
+        <!-- Page content-->
+        <div class="container">
+            <div class="row">
+                <!-- Blog entries-->
+                <div class="col-12" id="main-area">
+                    {% block content %}
+                    {% endblock %}
+                </div>
+
+            </div>
+        </div>
+        <!-- Footer-->
+        {% include 'blog/footer.html' %}
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{% static 'blog/js/scripts.js' %}"></script>
+    </body>
+</html>
